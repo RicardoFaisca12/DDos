@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 import sys
 import socket
@@ -309,7 +309,7 @@ def main():
 
 
 try:
-	users = ["Katchau", "Guest"]
+	users = ["katchau", "Guest"]
 	clear = "clear"
 	os.system (clear)
 	username = getpass.getpass ("[+] Username: ")
@@ -321,9 +321,9 @@ try:
 except KeyboardInterrupt:
 	exit()
 try:
-	passwords = ["Katchau", "Guest"]
+	passwords = ["katchau", "Guest"]
 	password = getpass.getpass ("[+] Password: ")
-	if user == "Katchau":
+	if user == "katchau":
 		if password == passwords[0]:
 			print ("[+] Login Correct.")
 			print ("[+] Type Help To See Commands.")
