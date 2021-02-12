@@ -188,7 +188,7 @@ def main():
 
 	while True:
 		sys.stdout.write("\x1b]2;Katchau\x07")
-		sin = input("\033[1;00m[\033[33mKatchau\033[1;00m]-\033[91m⚡️ \033[00m ").lower()
+		sin = input("\033[1;00m[\033[91mKatchau\033[1;00m]-\033[91m⚡️ \033[00m ").lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
 			os.system ("clear")
@@ -225,11 +225,11 @@ def main():
 			tpings += 1
 			try:
 				sinput, host, dport = sin.split(" ")
-				print ("[\033[33mKatchau\033[00m] Starting Ping On Host: {}".format (host))
+				print ("[\033[91mKatchau\033[00m] Starting Ping On Host: {}".format (host))
 				try:
 					ip = socket.gethostbyname(host)
 				except socket.gaierror:
-					print ("[\033[33mKatchau\033[00m] Host Un-Resolvable.")
+					print ("[\033[91mKatchau\033[00m] Host Un-Resolvable.")
 					main()
 				while True:
 					try:
@@ -239,18 +239,18 @@ def main():
 						sock.connect ((host, int(dport)))
 						stop = int(time.time() * 1000 - start)
 						sys.stdout.write("".format (stop))
-						print ("[\033[33mKatchau\033[00m] | Time: {}ms [UP]".format(ip, dport, stop))
+						print ("[\033[91mKatchau\033[00m] | Time: {}ms [UP]".format(ip, dport, stop))
 						sock.close()
 						time.sleep(1)
 					except socket.error:
 						sys.stdout.write("")
-						print ("[\033[33mKatchau\033[00m] {}:{} [DOWN]".format(ip, dport))
+						print ("[\033[91mKatchau\033[00m] {}:{} [DOWN]".format(ip, dport))
 						time.sleep(1)
 					except KeyboardInterrupt:
 						print("")
 						main()
 			except ValueError:
-				print ("[\033[33mKatchau\033[00m] The Command {} Requires An Argument.".format (sinput))
+				print ("[\033[91mKatchau\033[00m] The Command {} Requires An Argument.".format (sinput))
 				main()
 		elif sinput == "udp":
 			if username == "Guest":
